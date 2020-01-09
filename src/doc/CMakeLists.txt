@@ -1,0 +1,6 @@
+if(Q_WS_X11)
+  add_subdirectory(kmag)
+  add_subdirectory(kmousetool)
+  add_subdirectory(kttsd)
+endif(Q_WS_X11)
+add_subdirectory(kmouth)

@@ -1,0 +1,13 @@
+set(kspeak_SRCS 
+    kspeak.cpp
+    main.cpp )
+
+qt4_add_dbus_interfaces(kspeak_SRCS ${KDE4_DBUS_INTERFACES_DIR}/org.kde.KSpeech.xml )
+
+kde4_add_executable(kspeak ${kspeak_SRCS})
+
+target_link_libraries(kspeak
+    ${KDE4_KDEUI_LIBS}
+    ${KDE4_KUTILS_LIBS} )
+#Why it's not installed ?
+# install(TARGETS kspeak ${INSTALL_TARGETS_DEFAULT_ARGS} )

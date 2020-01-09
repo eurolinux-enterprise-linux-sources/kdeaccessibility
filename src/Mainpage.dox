@@ -1,0 +1,14 @@
+/**
+* @mainpage KDE Accessibility Software
+*
+* This section contains the API references for KDE's collection
+* of accessibility software. These include:
+*
+* - <a href="kttsd/html/index.html"><b>kttsd</b></a>\n
+*   <i>K Text To Speech Daemon</i>
+*
+* You can find more information about the <i>KDE Accessibility Project</i> at
+* <a href="http://accessibility.kde.org">accessibility.kde.org</a>.
+*
+*/
+// DOXYGEN_NAME=kdeaccessibility

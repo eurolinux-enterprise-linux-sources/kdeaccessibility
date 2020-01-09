@@ -1,0 +1,241 @@
+[Icon Theme]
+Name=Monochrome
+Name[ar]=أحادي اللون
+Name[be]=Монахром
+Name[bg]=Monochrome
+Name[br]=Monokrom
+Name[ca]=Monocrom
+Name[cs]=Černobíle
+Name[cy]=Unlliw
+Name[da]=Monokrom
+Name[de]=Monochrom
+Name[el]=Μονόχρωμο
+Name[en_GB]=Monochrome
+Name[es]=Monocromo
+Name[et]=Ühevärviline
+Name[eu]=Monokromoa
+Name[fa]=تک رنگ
+Name[fi]=Yksivärinen
+Name[fr]=Monochrome
+Name[ga]=Monacrómach
+Name[gl]=Monocromo
+Name[he]=מונוכרום
+Name[hi]=एकवर्ण
+Name[hne]=एकवर्न
+Name[hu]=Monokróm
+Name[is]=Svart/hvítt
+Name[it]=Monocromo
+Name[ja]=Monochrome
+Name[km]=មួយ​ពណ៌
+Name[ko]=단색
+Name[ku]=Reş-spî
+Name[lt]=Monochrominis
+Name[lv]=Melnbalts
+Name[ml]=ഒറ്റവര്‍ണ്ണം
+Name[ms]=Monokrom
+Name[nb]=Ensfarget
+Name[nds]=Swattwitt
+Name[ne]=मोनोक्रोम
+Name[nl]=Monochroom
+Name[nn]=Svart-kvitt
+Name[pa]=ਮੋਨੋਕਰੋਮਿਕ
+Name[pl]=Monochromatyczny
+Name[pt]=Monocromático
+Name[pt_BR]=Monocromático
+Name[ro]=Monocrom
+Name[ru]=Чёрно-белая тема
+Name[sk]=Monochrome
+Name[sl]=Monokromatsko
+Name[sr]=Монохроматске
+Name[sr@latin]=Monohromatske
+Name[sv]=Monokrom
+Name[ta]=மோனோக்ரோம்
+Name[tg]=Мавзӯъи сиёҳ-сафед
+Name[tr]=Siyah-beyaz
+Name[uk]=Чорно-біле
+Name[vi]=Đơn sắc
+Name[x-test]=xxMonochromexx
+Name[zh_CN]=黑白
+Name[zh_TW]=單色
+Comment=By Danny Allen (danny@dannyallen.co.uk)
+Comment[ar]=من قبل داني آلن (danny@dannyallen.co.uk)
+Comment[bg]=By Danny Allen (danny@dannyallen.co.uk)
+Comment[ca]=Per Danny Allen (danny@dannyallen.co.uk)
+Comment[cs]=Danny Allen (danny@dannyallen.co.uk)
+Comment[da]=Ved Danny Allen (danny@dannyallen.co.uk)
+Comment[de]=Von Danny Allen (danny@dannyallen.co.uk)
+Comment[el]=Από τον Danny Allen (danny@dannyallen.co.uk)
+Comment[en_GB]=By Danny Allen (danny@dannyallen.co.uk)
+Comment[es]=Por Danny Allen (danny@dannyallen.co.uk)
+Comment[et]=Autor: Danny Allen (danny@dannyallen.co.uk)
+Comment[eu]=Egilea: Danny Allen (danny@dannyallen.co.uk)
+Comment[fa]=توسط دنی آلن (danny @dannyallen.co.uk)
+Comment[fi]=Danny Allen (danny@dannyallen.co.uk)
+Comment[fr]=De Danny Allen (danny@dannyallen.co.uk)
+Comment[ga]=Le Danny Allen (danny@dannyallen.co.uk)
+Comment[gl]=Por Danny Allen (danny@dannyallen.co.uk)
+Comment[he]=נכתב על ידי Danny Allen (danny@dannyallen.co.uk)
+Comment[hi]=डैनी एलन द्वारा (danny@dannyallen.co.uk)
+Comment[hne]=डैनी एलन से (danny@dannyallen.co.uk)
+Comment[hu]=Készítette: Danny Allen (danny@dannyallen.co.uk)
+Comment[is]=Eftir Danny Allen (danny@dannyallen.co.uk)
+Comment[it]=Di Danny Allen (danny@dannyallen.co.uk)
+Comment[ja]=Danny Allen (danny@dannyallen.co.uk) 作
+Comment[km]=ដោយ​លោក​ Danny Allen (danny@dannyallen.co.uk)
+Comment[ko]=Danny Allen (danny@dannyallen.co.uk)
+Comment[ku]=Alî yê Danny Allen (danny@dannyallen.co.uk) ve
+Comment[lt]=Sukūrė Danny Allen (danny@dannyallen.co.uk)
+Comment[lv]=Danny Allen (danny@dannyallen.co.uk)
+Comment[mk]=Од Danny Allen (danny@dannyallen.co.uk)
+Comment[ml]=ഡന്നി അല്ലെന്‍ വക (danny@dannyallen.co.uk)
+Comment[ms]=Oleh Danny Allen (danny@dannyallen.co.uk)
+Comment[nb]=av Danny Allen (danny@dannyallen.co.uk)
+Comment[nds]=Vun Danny Allen (danny@dannyallen.co.uk)
+Comment[ne]=डेनी एलेन (danny@dannyallen.co.uk)
+Comment[nl]=door Danny Allen (danny@dannyallen.co.uk)
+Comment[nn]=Av Danny Allen (danny@dannyallen.co.uk)
+Comment[pa]=Danny Allen (danny@dannyallen.co.uk) ਵਲੋਂ
+Comment[pl]=Autor Danny Allen (danny@dannyallen.co.uk)
+Comment[pt]=De Danny Allen (danny@dannyallen.co.uk)
+Comment[pt_BR]=Por Danny Allen (danny@dannyallen.co.uk)
+Comment[ro]=De Danny Allen (danny@dannyallen.co.uk)
+Comment[ru]=Написал Дэнни Аллен (Danny Allen) (danny@dannyallen.co.uk)
+Comment[sk]=Danny Allen (danny@dannyallen.co.uk)
+Comment[sl]=Napisal Danny Allen (danny@dannyallen.co.uk)
+Comment[sr]=Од Денија Алена
+Comment[sr@latin]=Od Denija Alena
+Comment[sv]=Av Danny Allen (danny@dannyallen.co.uk)
+Comment[ta]=டானி ஆலன் (danny@dannyallen.co.uk)
+Comment[tg]=Навишташудааст аз тарафи Аллен (Danny Allen) (danny@dannyallen.co.uk)
+Comment[tr]=Danny Allen (danny@dannyallen.co.uk)
+Comment[uk]=Автор Danny Allen (danny@dannyallen.co.uk)
+Comment[vi]=Bởi Danny Allen (danny@dannyallen.co.uk)
+Comment[x-test]=xxBy Danny Allen (danny@dannyallen.co.uk)xx
+Comment[zh_CN]=由 Danny Allen (danny@dannyallen.co.uk) 制作
+Comment[zh_TW]=By Danny Allen (danny@dannyallen.co.uk)
+
+DisplayDepth=32
+Inherits=hicolor
+Example=folder
+
+LinkOverlay=link-overlay
+LockOverlay=lock-overlay
+ShareOverlay=share-overlay
+ZipOverlay=zip-overlay
+
+DesktopDefault=48
+DesktopSizes=16,22,32,48,64,128
+ToolbarDefault=22
+ToolbarSizes=16,22,32,48
+MainToolbarDefault=22
+MainToolbarSizes=16,22,32,48
+SmallDefault=16
+SmallSizes=16
+PanelDefault=32
+PanelSizes=16,22,32,48,64,128
+
+Directories=16x16/animations,22x22/animations,32x32/animations,48x48/animations,64x64/animations,96x96/animations,128x128/animations,192x192/animations,256x256/animations,scalable/actions,scalable/animations,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/mimetypes,scalable/places,scalable/status
+
+[scalable/actions]
+Size=128
+Context=Actions
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/animations]
+Size=128
+Context=Animations
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/apps]
+Size=128
+Context=Applications
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/categories]
+Size=128
+Context=Categories
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/devices]
+Size=128
+Context=Devices
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/emblems]
+Size=128
+Context=Emblems
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/emotes]
+Size=128
+Context=Emotes
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/intl]
+Size=128
+Context=International
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/mimetypes]
+Size=128
+Context=MimeTypes
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/places]
+Size=128
+Context=Places
+Type=Scalable
+MinSize=32
+MaxSize=256
+[scalable/status]
+Size=128
+Context=Status
+Type=Scalable
+MinSize=32
+MaxSize=256
+
+[16x16/animations]
+Size=16
+Context=Animations
+Type=Threshold
+[22x22/animations]
+Size=22
+Context=Animations
+Type=Threshold
+[32x32/animations]
+Size=32
+Context=Animations
+Type=Threshold
+[48x48/animations]
+Size=48
+Context=Animations
+Type=Threshold
+[64x64/animations]
+Size=64
+Context=Animations
+Type=Threshold
+[96x96/animations]
+Size=96
+Context=Animations
+Type=Threshold
+[128x128/animations]
+Size=128
+Context=Animations
+Type=Threshold
+[192x192/animations]
+Size=192
+Context=Animations
+Type=Threshold
+[256x256/animations]
+Size=256
+Context=Animations
+Type=Threshold

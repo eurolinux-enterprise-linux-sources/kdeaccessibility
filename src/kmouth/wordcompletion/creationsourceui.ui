@@ -1,0 +1,150 @@
+<ui version="4.0" stdsetdef="1" >
+  <class>CreationSourceUI</class>
+  <widget class="QWidget" name="CreationSourceUI" >
+    <property name="geometry" >
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>318</width>
+        <height>223</height>
+      </rect>
+    </property>
+    <layout class="QGridLayout" >
+      <item rowspan="1" row="0" column="0" colspan="2" >
+        <widget class="QRadioButton" name="createButton" >
+          <property name="text" >
+            <string>C&amp;reate new dictionary:</string>
+          </property>
+          <property name="checked" >
+            <bool>true</bool>
+          </property>
+          <property name="whatsThis" stdset="0" >
+            <string>If you select this box a new dictionary is created by either loading a dictionary file or by counting the individual words in a text.</string>
+          </property>
+        </widget>
+      </item>
+      <item rowspan="1" row="4" column="0" colspan="2" >
+        <widget class="QRadioButton" name="mergeButton" >
+          <property name="text" >
+            <string>&amp;Merge dictionaries</string>
+          </property>
+          <property name="whatsThis" stdset="0" >
+            <string>If you select this box a new dictionary is created by merging existing dictionaries.</string>
+          </property>
+        </widget>
+      </item>
+      <item row="2" column="1" >
+        <widget class="QRadioButton" name="fileButton" >
+          <property name="enabled" >
+            <bool>true</bool>
+          </property>
+          <property name="sizePolicy" >
+            <sizepolicy>
+              <hsizetype>1</hsizetype>
+              <vsizetype>0</vsizetype>
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="text" >
+            <string>From &amp;file</string>
+          </property>
+          <property name="whatsThis" stdset="0" >
+            <string>If you select this box a new dictionary is created by loading a file. You may either select an XML file, a standard text file or a file containing a word completion dictionary. If you select a standard text file or an XML file the frequentness of the individual words is detected by simply counting the occurrences of each word.</string>
+          </property>
+        </widget>
+      </item>
+      <item row="1" column="1" >
+        <widget class="QRadioButton" name="kdeDocButton" >
+          <property name="enabled" >
+            <bool>true</bool>
+          </property>
+          <property name="sizePolicy" >
+            <sizepolicy>
+              <hsizetype>1</hsizetype>
+              <vsizetype>0</vsizetype>
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="text" >
+            <string>From &amp;KDE documentation</string>
+          </property>
+          <property name="checked" >
+            <bool>true</bool>
+          </property>
+          <property name="whatsThis" stdset="0" >
+            <string>If you select this box a new dictionary is created by parsing the KDE documentation. The frequentness of the individual words is detect by simply counting the occurrences of each word.</string>
+          </property>
+        </widget>
+      </item>
+      <item row="3" column="1" >
+        <widget class="QRadioButton" name="directoryButton" >
+          <property name="enabled" >
+            <bool>true</bool>
+          </property>
+          <property name="sizePolicy" >
+            <sizepolicy>
+              <hsizetype>1</hsizetype>
+              <vsizetype>0</vsizetype>
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+            </sizepolicy>
+          </property>
+          <property name="text" >
+            <string>From f&amp;older</string>
+          </property>
+          <property name="whatsThis" stdset="0" >
+            <string>If you select this box a new dictionary is created by loading all files in a folder and its subdirectories.</string>
+          </property>
+        </widget>
+      </item>
+      <item rowspan="3" row="1" column="0" colspan="1" >
+        <spacer name="spacer1" >
+          <property name="sizeHint" >
+            <size>
+              <width>20</width>
+              <height>40</height>
+            </size>
+          </property>
+          <property name="sizeType" >
+            <enum>Fixed</enum>
+          </property>
+          <property name="orientation" >
+            <enum>Vertical</enum>
+          </property>
+        </spacer>
+      </item>
+      <item rowspan="1" row="5" column="0" colspan="2" >
+        <widget class="QRadioButton" name="emptyButton" >
+          <property name="text" >
+            <string>Create an &amp;empty wordlist</string>
+          </property>
+          <property name="whatsThis" stdset="0" >
+            <string>If you select this box a blank dictionary without any entries is created. As KMouth automatically adds newly typed words to the dictionaries it will learn your vocabulary with the time.</string>
+          </property>
+        </widget>
+      </item>
+    </layout>
+  </widget>
+    <connections>
+    <connection>
+      <sender>createButton</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>kdeDocButton</receiver>
+      <slot>setEnabled(bool)</slot>
+    </connection>
+    <connection>
+      <sender>createButton</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>fileButton</receiver>
+      <slot>setEnabled(bool)</slot>
+    </connection>
+    <connection>
+      <sender>createButton</sender>
+      <signal>toggled(bool)</signal>
+      <receiver>directoryButton</receiver>
+      <slot>setEnabled(bool)</slot>
+    </connection>
+  </connections>
+</ui>
