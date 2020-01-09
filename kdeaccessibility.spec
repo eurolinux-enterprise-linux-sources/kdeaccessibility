@@ -2,13 +2,16 @@ Summary: KDE Accessibility
 Name: kdeaccessibility
 Epoch: 1
 Version: 4.3.4
-Release: 4%{?dist}
+Release: 5%{?dist}
 
 Group: User Interface/Desktops
 License: GPLv2
 URL: http://accessibility.kde.org/
 Source0: ftp://ftp.kde.org/pub/kde/stable/%{version}/src/kdeaccessibility-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
+# fastrack-6.2, kttsmsg does not have menu icon
+Patch1: kdeaccessibility-4.3.4-bz#587897.patch
 
 # upstream patches
 Patch100: kdeaccessibility-4.3.5.patch
@@ -45,6 +48,8 @@ Requires: kdelibs4%{?_isa} >= %{version}
 
 %prep
 %setup -q
+
+%patch1 -p1 -b .bz#587897
 
 # upstream patches
 %patch100 -p1 -b .kde435
@@ -135,6 +140,9 @@ gtk-update-icon-cache %{_kde4_iconsdir}/mono &> /dev/null || :
 
 
 %changelog
+* Mon Jul 18 2011 Than Ngo <than@redhat.com> - 4.3.4-5
+- Resolves: bz#587897, kttsmsg does not have menu icon
+
 * Tue Mar 30 2010 Than Ngo <than@redhat.com> - 4.3.4-4
 - rebuilt against qt-4.6.2
 

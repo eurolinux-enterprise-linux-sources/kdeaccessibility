@@ -1,0 +1,8 @@
+diff -up kdeaccessibility-4.3.4/kttsd/kttsmgr/kttsmgr.desktop.orig kdeaccessibility-4.3.4/kttsd/kttsmgr/kttsmgr.desktop
+--- kdeaccessibility-4.3.4/kttsd/kttsmgr/kttsmgr.desktop.orig	2011-07-18 18:15:38.000000000 +0200
++++ kdeaccessibility-4.3.4/kttsd/kttsmgr/kttsmgr.desktop	2011-07-18 18:16:17.000000000 +0200
+@@ -170,3 +170,4 @@ Comment[zh_CN]=KDE 语音合成管理器
+ Comment[zh_TW]=KDE 文字轉語音管理員
+ Terminal=false
+ Categories=Qt;KDE;Utility;Accessibility;
++OnlyShowIn=KDE;
