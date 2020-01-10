@@ -2,7 +2,7 @@ Summary: KDE Accessibility
 Name:    kdeaccessibility
 Epoch:   1
 Version: 4.10.5
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: GPLv2
 Group:   User Interface/Desktops
@@ -42,6 +42,9 @@ Kdeaccessibility metapackage, to ease migration to split applications.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:4.10.5-2
+- Mass rebuild 2013-12-27
+
 * Wed Jul 03 2013 Than Ngo <than@redhat.com> - 1:4.10.5-1
 - 4.10.5
 
