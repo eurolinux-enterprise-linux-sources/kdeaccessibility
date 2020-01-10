@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - kdeaccessibility 
+# ELS - Enterprise Linux/EuroLinux Sources - kdeaccessibility
+ 
 ## Usage:
   Checkout branch or tag.
